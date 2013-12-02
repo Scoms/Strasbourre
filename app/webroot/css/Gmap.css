@@ -1,0 +1,25 @@
+div#Gmap{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height:100%;
+	display: block;
+}
+
+div#map_canvas{
+	width: 80%;
+	height:100%;
+	position: absolute;
+	top:0;
+	display: inline-block;
+}
+
+div#Gmap div.infoBubble{
+	background-color: #8e44ad;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	min-width: 250px;
+	padding: 0 5px 0 5px;
+}

@@ -1,0 +1,15 @@
+html{
+	font-family: 'Raleway', sans-serif;
+	color:white;
+}
+h2{
+	font-weight: 500;
+}
+h3.action{
+	cursor: pointer;
+	text-align: center;
+}
+
+footer{
+	display: block;
+}
