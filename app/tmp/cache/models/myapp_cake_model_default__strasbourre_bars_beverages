@@ -1,0 +1,2 @@
+1385990292
+a:2:{s:6:"bar_id";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;}s:11:"beverage_id";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;}}
