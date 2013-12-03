@@ -23,16 +23,22 @@
  */
 
 // Setup a 'default' cache configuration for use in the application.
+Cache::config('_cake_model_', array(
+	'engine' => $engine,
+	'prefix' => $prefix . 'cake_model_',
+	'path' => '/tmp/', # New Path
+	'serialize' => ($engine === 'File'),
+	'duration' => $duration
+));
+
 Cache::config('default', array(
-        'engine' => 'Memcache', //[required]
-        'duration'=> 3600, //[optional]
-        'probability'=> 100, //[optional]
-        'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
-        'servers' => array(
-        '127.0.0.1:11211' // localhost, default port 11211
-        ), //[optional]
-        'compress' => false, // [optional] compress data in Memcache (slower, but uses less memory)
-        ));
+'engine' => $engine,
+'duration' => '+1 week',
+'probability' => 100,
+'path' => CACHE . 'default' . DS,
+'mask' => 0666,
+'lock' => true
+));
 /**
  * The settings below can be used to set additional paths to models, views and controllers.
  *
