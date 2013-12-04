@@ -10,15 +10,4 @@ class DATABASE_CONFIG {
         'prefix'      => '',
         'encoding'    => 'utf8'
     );
-    /*
-    public $default = array(
-        'datasource'  => 'Database/Mysql',
-        'persistent'  => false,
-        'host'        => 'ds057528.mongolab.com:57528',
-        'login'       => 'Scoms',
-        'password'    => 'pipicaca666',
-        'database'    => 'strasbourre',
-        'prefix'      => '',
-        'encoding'    => 'utf8'
-    );*/
 }
