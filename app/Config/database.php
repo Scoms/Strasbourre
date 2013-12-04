@@ -10,6 +10,7 @@ class DATABASE_CONFIG {
         'prefix'      => '',
         'encoding'    => 'utf8'
     );*/
+    /*
     public $default = array(
         'datasource'  => 'Database/Mysql',
         'persistent'  => false,
@@ -19,5 +20,5 @@ class DATABASE_CONFIG {
         'database'    => 'strasbourre',
         'prefix'      => '',
         'encoding'    => 'utf8'
-    );
+    );*/
 }
