@@ -3464,3 +3464,48 @@ Request URL: /Strasbourre/js/jquery-1.10.2.min.map
 Stack Trace:
 #0 /opt/lampp/htdocs/Strasbourre/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-12-04 10:16:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Strasbourre/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /opt/lampp/htdocs/Strasbourre/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-04 10:18:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Strasbourre/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /opt/lampp/htdocs/Strasbourre/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-04 10:18:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Strasbourre/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /opt/lampp/htdocs/Strasbourre/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-04 10:21:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Strasbourre/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /opt/lampp/htdocs/Strasbourre/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-04 10:21:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Strasbourre/js/jquery-1.10.2.min.map
+Stack Trace:
+#0 /opt/lampp/htdocs/Strasbourre/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

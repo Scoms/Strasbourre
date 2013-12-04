@@ -13,14 +13,15 @@
 	?>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
 	<title>
-		Strasbourre
+		<?php echo ROOT ?> 
 	</title>
 </head>
 <body>
 	<h1>Strasbourre</h1>
 		<?php 
 			echo $this->Session->flash(); 
-			echo $this->fetch('content'); 
+			echo $this->fetch('content');
+			echo WWW_ROOT; 
 		?>
 	<footer>
 		Powered by FactoMiner
