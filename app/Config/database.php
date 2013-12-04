@@ -14,8 +14,8 @@ class DATABASE_CONFIG {
         'datasource'  => 'Database/Mysql',
         'persistent'  => false,
         'host'        => 'ds057528.mongolab.com:57528',
-        'login'       => 'Dev',
-        'password'    => 'password',
+        'login'       => 'Scoms',
+        'password'    => 'pipicaca666',
         'database'    => 'strasbourre',
         'prefix'      => '',
         'encoding'    => 'utf8'
